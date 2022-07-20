@@ -420,21 +420,14 @@ color: rgb(244,167,89);
 var styleContent = `
 color: rgb(30,152,255);
 `
-var title1 = '無名の主页'
-var title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
-`
+var title1 = 'DDMTDXWの主页'
+
 var content = `
 版 本 号：3.3
 更新日期：2022-07-06
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  https://www.ddmtdxw.ml
+源码:  https://github.com/imsyy/home
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
